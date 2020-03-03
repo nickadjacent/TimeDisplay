@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="wrapper">
+
+    <div id="divupper">{{title}}</div>
+    <div id="divlower">
+        <div>{{time1}}</div>
+        <div>{{time2}}</div>
+    </div>
+
+</body>
+
+</html>
